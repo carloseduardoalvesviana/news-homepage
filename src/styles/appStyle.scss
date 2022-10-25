@@ -1,0 +1,31 @@
+main {
+  width: 80%;
+  margin: auto;
+  padding: 3rem;
+  font-family: "Inter", sans-serif;
+}
+
+.menu {
+  width: 50%;
+  position: fixed;
+  background-color: #fff7f7;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  padding: 50px;
+
+  text-align: center;
+}
+
+ul {
+  margin-top: 40px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+
+  li {
+    margin: 20px 0px;
+    cursor: pointer;
+  }
+}

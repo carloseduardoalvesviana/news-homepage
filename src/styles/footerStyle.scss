@@ -1,0 +1,50 @@
+footer {
+  width: 100%;
+  margin-top: 60px;
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .box-content {
+      flex: 1;
+      background: #fff;
+
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .content {
+        h1,
+        p {
+          color: #9a9ca7;
+        }
+
+        .sub-title {
+          font-weight: bold;
+          color: #1c1b3e;
+        }
+      }
+
+      @media only screen and (max-width: 1100px) {
+        align-items: center;
+        margin-bottom: 15px;
+      }
+    }
+
+    .final {
+      flex: 1.2;
+    }
+
+    @media only screen and (max-width: 1100px) {
+      flex-direction: column;
+    }
+  }
+}
