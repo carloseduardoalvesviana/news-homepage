@@ -19,7 +19,7 @@ export default {
             arcu non neque feugiat cursus. Lorem ipsum dolor sit amet, arcu non
             neque feugiat cursus.
           </p>
-          <button class="button-action">READE MORE</button>
+          <button class="button-action">READ MORE</button>
         </div>
       </section>
     </div>
